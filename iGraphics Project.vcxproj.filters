@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="2.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="3.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="4.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="5.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="6.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R0.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R2.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R3.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R4.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R5.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="R6.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="i.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="ii.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="iii.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="iv.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="v.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="vi.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="vii.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="target.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="target3.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="target4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aim.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg2.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg3.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg4.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg4.1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg5.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="lf1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="music\HomeMusic.wav">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="..\..\..\19\Project SD Version 4.1\a_Game\bg30.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="..\..\..\19\Project SD Version 4.1\a_Game\bg35.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg4_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg30.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg30_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg35.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg35_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg36.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="bg36_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\credits.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\credits_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\exit.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\exit_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\high.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\high_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\ins.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\ins_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\start.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="btn\start_1.bmp">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+    <None Include="Highscore.txt">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

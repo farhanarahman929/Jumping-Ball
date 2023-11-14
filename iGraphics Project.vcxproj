@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0BCCFB46-68E8-42DD-BCB6-BD2EED857D7F}</ProjectGuid>
+    <RootNamespace>iGraphicsProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h" />
+    <ClInclude Include="glaux.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="iGraphics.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\19\Project SD Version 4.1\a_Game\bg30.bmp" />
+    <None Include="..\..\..\19\Project SD Version 4.1\a_Game\bg35.bmp" />
+    <None Include="1.bmp" />
+    <None Include="2.bmp" />
+    <None Include="3.bmp" />
+    <None Include="4.bmp" />
+    <None Include="5.bmp" />
+    <None Include="6.bmp" />
+    <None Include="aim.bmp" />
+    <None Include="bg.bmp" />
+    <None Include="bg2.bmp" />
+    <None Include="bg3.bmp" />
+    <None Include="bg30.bmp" />
+    <None Include="bg30_1.bmp" />
+    <None Include="bg35.bmp" />
+    <None Include="bg35_1.bmp" />
+    <None Include="bg36.bmp" />
+    <None Include="bg36_1.bmp" />
+    <None Include="bg4.1.bmp" />
+    <None Include="bg4.bmp" />
+    <None Include="bg4_1.bmp" />
+    <None Include="bg5.bmp" />
+    <None Include="btn\credits.bmp" />
+    <None Include="btn\credits_1.bmp" />
+    <None Include="btn\exit.bmp" />
+    <None Include="btn\exit_1.bmp" />
+    <None Include="btn\high.bmp" />
+    <None Include="btn\high_1.bmp" />
+    <None Include="btn\ins.bmp" />
+    <None Include="btn\ins_1.bmp" />
+    <None Include="btn\start.bmp" />
+    <None Include="btn\start_1.bmp" />
+    <None Include="Highscore.txt" />
+    <None Include="i.bmp" />
+    <None Include="ii.bmp" />
+    <None Include="iii.bmp" />
+    <None Include="iv.bmp" />
+    <None Include="lf1.bmp" />
+    <None Include="music\HomeMusic.wav" />
+    <None Include="R0.bmp" />
+    <None Include="R1.bmp" />
+    <None Include="R2.bmp" />
+    <None Include="R3.bmp" />
+    <None Include="R4.bmp" />
+    <None Include="R5.bmp" />
+    <None Include="R6.bmp" />
+    <None Include="target.bmp" />
+    <None Include="target3.bmp" />
+    <None Include="target4.bmp" />
+    <None Include="v.bmp" />
+    <None Include="vi.bmp" />
+    <None Include="vii.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
